@@ -1,6 +1,5 @@
 #1Merges the training and the test sets to create one data set.
 
-setwd("F:/courseraVideo/JohnsHopkins/3GettingCleaningData/proj/UCI HAR Dataset")
 testSet  <- read.table("./test/x_test.txt")
 testLabel  <- read.table("./test/y_test.txt")
 testPerf  <- read.table("./test/subject_test.txt")
